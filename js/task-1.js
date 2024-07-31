@@ -83,7 +83,7 @@ const imagesGalleryEl = document.querySelector('.gallery');
 imagesGalleryEl.innerHTML = imagesCard;
 
 const modal = basicLightbox.create(`
-        <img src="" width="800" height="600"/>
+  <img src="" width="800" height="600"/>
 `)
 
 imagesGalleryEl.addEventListener('click', onGalleryClick);
